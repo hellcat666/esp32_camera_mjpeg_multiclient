@@ -1,42 +1,14 @@
-# ESP32 MJPEG Multiclient Streaming Server
+This project is an extension of the project esp32-cam-mjpeg-multiclient originally developped by **arkhipenko** 
+and located at https://github.com/arkhipenko/esp32-cam-mjpeg-multiclient.
 
-This is a simple MJPEG streaming webserver implemented for AI-Thinker ESP32-CAM or ESP-EYE modules. 
+The following functionalities have been added:
+ - status (/status)  : Returns the current Camera settings in json format
+ - control (/control): Lets the User modify Camera Settings (for the moment only one at a time)
+                       such as framesize, contrast, luminosity, saturation, etc ...
+ - reboot (/reboot)  : Let's the user reboot the Camera from a Client App.
+                       The code is widely inspired from the project CameraWebServer.
 
-This is tested to work with **VLC** and **Blynk** video widget. 
+The code of these functionnalities is widely inspired from the example project Camera WebServer from **Espressif**
+located at https://github.com/espressif/arduino-esp32/tree/master/libraries/ESP32/examples/Camera/CameraWebServer.
 
-
-
-**This version uses FreeRTOS tasks to enable streaming to up to 10 connected clients**
-
-
-
-Inspired by and based on this Instructable: [$9 RTSP Video Streamer Using the ESP32-CAM Board](https://www.instructables.com/id/9-RTSP-Video-Streamer-Using-the-ESP32-CAM-Board/)
-
-Full story: https://www.hackster.io/anatoli-arkhipenko/multi-client-mjpeg-streaming-from-esp32-47768f
-
-------
-
-##### Other repositories that may be of interest
-
-###### ESP32 MJPEG streaming server servicing a single client:
-
-https://github.com/arkhipenko/esp32-cam-mjpeg
-
-
-
-###### ESP32 MJPEG streaming server servicing multiple clients (FreeRTOS based):
-
-https://github.com/arkhipenko/esp32-cam-mjpeg-multiclient
-
-
-
-###### ESP32 MJPEG streaming server servicing multiple clients (FreeRTOS based) with the latest camera drivers from espressif.
-
-https://github.com/arkhipenko/esp32-mjpeg-multiclient-espcam-drivers
-
-
-
-###### Cooperative multitasking library:
-
-https://github.com/arkhipenko/TaskScheduler
-
+TODO: Finalize the documentation ;-)
