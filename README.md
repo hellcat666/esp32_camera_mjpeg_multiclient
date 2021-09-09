@@ -76,13 +76,13 @@ special_effect:	Set a special effect for the image (e.g. Green Tint)
 
 The following effects are available:
 	0 No Effect
-    1 Negative
-    2 Grayscale
-    3 Red Tint
-    4 Green Tint
-    5 Blue Tint
-    6 Sepia
+    	1 Negative
+    	2 Grayscale
+    	3 Red Tint
+    	4 Green Tint
+    	5 Blue Tint
+    	6 Sepia
 
-T be continued ...
+To be continued ...
 
 TODO: Finalize the documentation ;-)
