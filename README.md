@@ -37,14 +37,14 @@ The following commands are available:
 				
 The following resolution are available:
 	0 QQVGA (160x120)
-	1 HQVGA (240x176)
-	2 QVGA (320x240)
-	3 CIF (400x296)
-	4 VGA (640x480)
-	5 SVGA (800x600)
-	6 XGA (1024x768)
-	7 SXGA (1280x1024)
-	8 UXGA (1600x1200)
+	3 HQVGA (240x176)
+	4 QVGA (320x240)
+	5 CIF (400x296)
+	6 VGA (640x480)
+	7 SVGA (800x600)
+	8 XGA (1024x768)
+	9 SXGA (1280x1024)
+	10 UXGA (1600x1200)
 
 				
 - quality:		Set the video compression factor (e.g 12)
