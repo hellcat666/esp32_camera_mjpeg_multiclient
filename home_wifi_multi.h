@@ -21,8 +21,8 @@ public:
 
 typedef std::vector<AP> ListAPs;
 
-#define SSID1 "CATS-NET"
-#define PWD1 "0BA95A1626"
+#define SSID1 "********"
+#define PWD1 "**********"
 //#define SSID1 "chp-67443"
 //#define PWD1 "67a3-7k3u-hahp-d333"
 
